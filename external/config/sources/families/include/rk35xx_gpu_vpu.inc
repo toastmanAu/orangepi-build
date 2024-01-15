@@ -5,7 +5,7 @@ rk35xx_gpu_vpu_tweaks()
 		debs_dir="$EXTER/cache/sources/rk35xx_packages"
 
 		debs_common_list+=("rga2" "mpp" "rktoolkit")
-		debs_list+=("gstreamer" "gst-plugins-base1.0" "gst-plugins-good1.0" "gst-plugins-bad1.0" "gst-plugins-ugly1.0" "gstreamer-rockchip")
+		debs_list+=("libqt5quick5-gles" "gstreamer" "gst-plugins-base1.0" "gst-plugins-good1.0" "gst-plugins-bad1.0" "gst-plugins-ugly1.0" "gstreamer-rockchip")
 		debs_list+=("xserver" "glmark2" "libdrm" "libdrm-cursor")
 		debs_list+=("libv4l" "libv4l-rkmpp" "chromium")
 		debs_list+=("ffmpeg" "mpv" "cheese" "gst-rkmpp")
