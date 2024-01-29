@@ -819,23 +819,6 @@ display_alert "Building kernel splash logo" "$RELEASE" "info"
 	--blob "${SDCARD}"/tmp/throbber55.rgb \
 	--blob "${SDCARD}"/tmp/throbber56.rgb \
 	--blob "${SDCARD}"/tmp/throbber57.rgb \
-	--blob "${SDCARD}"/tmp/throbber58.rgb \
-	--blob "${SDCARD}"/tmp/throbber59.rgb \
-	--blob "${SDCARD}"/tmp/throbber60.rgb \
-	--blob "${SDCARD}"/tmp/throbber61.rgb \
-	--blob "${SDCARD}"/tmp/throbber62.rgb \
-	--blob "${SDCARD}"/tmp/throbber63.rgb \
-	--blob "${SDCARD}"/tmp/throbber64.rgb \
-	--blob "${SDCARD}"/tmp/throbber65.rgb \
-	--blob "${SDCARD}"/tmp/throbber66.rgb \
-	--blob "${SDCARD}"/tmp/throbber67.rgb \
-	--blob "${SDCARD}"/tmp/throbber68.rgb \
-	--blob "${SDCARD}"/tmp/throbber69.rgb \
-	--blob "${SDCARD}"/tmp/throbber70.rgb \
-	--blob "${SDCARD}"/tmp/throbber71.rgb \
-	--blob "${SDCARD}"/tmp/throbber72.rgb \
-	--blob "${SDCARD}"/tmp/throbber73.rgb \
-	--blob "${SDCARD}"/tmp/throbber74.rgb \
 	"${SDCARD}"/lib/firmware/bootsplash.orangepi >/dev/null 2>&1
 	if [[ $BOOT_LOGO == yes || $BOOT_LOGO == desktop && $BUILD_DESKTOP == yes && $RELEASE != buster ]]; then
 		[[ -f "${SDCARD}"/boot/orangepiEnv.txt ]] &&	grep -q '^bootlogo' "${SDCARD}"/boot/orangepiEnv.txt && \
