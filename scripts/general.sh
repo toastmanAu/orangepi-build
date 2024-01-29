@@ -748,7 +748,7 @@ display_alert "Building kernel splash logo" "$RELEASE" "info"
 	--bg_red 0x00 \
 	--bg_green 0x00 \
 	--bg_blue 0x00 \
-	--frame_ms 48 \
+	--frame_ms 30 \
 	--picture \
 	--pic_width $LOGO_WIDTH \
 	--pic_height $LOGO_HEIGHT \
