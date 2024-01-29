@@ -1,13 +1,14 @@
+//rk356x_deb+=("rk356x_packages/common/libmali/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb")
+//rk356x_deb+=("rk356x_packages/common/rktoolkit/rktoolkit_1.0.0-1_arm64.deb")
+
 rk356x_gpu_vpu_tweaks()
 {
 
 	if [[ ${BOARD} =~ orangepicm4|orangepi3b && ${SELECTED_CONFIGURATION} == desktop && ${DESKTOP_ENVIRONMENT} == xfce && ${RELEASE} == focal ]]; then
 
-		rk356x_deb+=("rk356x_packages/common/libmali/libmali-bifrost-g52-g13p0-x11-gbm_1.9-1_arm64.deb")
 		rk356x_deb+=("rk356x_packages/common/rga2/librga2_2.2.0-1_arm64.deb")
 		rk356x_deb+=("rk356x_packages/common/rga2/librga-dev_2.2.0-1_arm64.deb")
-		rk356x_deb+=("rk356x_packages/common/rkaiq/camera_engine_rkaiq_rk3568_arm64.deb")
-		rk356x_deb+=("rk356x_packages/common/rktoolkit/rktoolkit_1.0.0-1_arm64.deb")
+		rk356x_deb+=("rk356x_packages/common/rkaiq/camera_engine_rkaiq_rk3568_arm64.deb")		
 		rk356x_deb+=("rk356x_packages/focal/mpp/librockchip-mpp1_1.5.0-1_arm64.deb")
 		rk356x_deb+=("rk356x_packages/focal/mpp/librockchip-mpp-dev_1.5.0-1_arm64.deb")
 		rk356x_deb+=("rk356x_packages/focal/mpp/librockchip-vpu0_1.5.0-1_arm64.deb")
