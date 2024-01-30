@@ -576,7 +576,7 @@ unset LOG_OUTPUT_FILE
 
 DEBIAN_MIRROR='deb.debian.org/debian'
 DEBIAN_SECURTY='security.debian.org/'
-UBUNTU_MIRROR='mirrors.mit.edu/'
+UBUNTU_MIRROR='mirrors.mit.edu/ubuntu-ports/'
 RASPI_MIRROR='archive.raspberrypi.org/debian/'
 
 if [[ $DOWNLOAD_MIRROR == "china" ]] ; then
