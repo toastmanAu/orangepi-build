@@ -32,7 +32,6 @@ gnome-menus
 gnome-session
 gnome-session-bin
 gnome-session-common
-gnome-session-wayland
 gnome-settings-daemon
 gnome-settings-daemon-common
 gnome-shell
@@ -151,7 +150,7 @@ update-manager-core
 update-notifier
 update-notifier-common
 upower
-wayland-protocols-dev
+wayland-protocols
 x11-apps
 x11-session-utils
 x11-utils
