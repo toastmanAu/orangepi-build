@@ -2,7 +2,6 @@ alsa-oss
 antiword 
 apparmor-profiles-extra 
 apparmor-utils 
-apsfilter 
 aptdaemon
 arj 
 aspell 
@@ -68,7 +67,6 @@ gnome-user-share
 gpa 
 gpart 
 gphoto2 
-graphicsmagick-imagemagick-compat 
 groff 
 gstreamer1.0-libav 
 gstreamer1.0-plugins-bad 
@@ -79,7 +77,7 @@ hplip
 hunspell 
 hyphen-en-us
 hyphen-en-gb
-imagemagick 
+imagemagick-6.q16
 imagemagick 
 jackd2 
 jfsutils 
@@ -135,7 +133,6 @@ libreoffice-sdbc-mysql
 libreoffice-sdbc-postgresql 
 librsvg2-bin avahi-daemon
 libsasl2-modules-gssapi-heimdal
-libsasl2-modules-gssapi-mit 
 libsasl2-modules-ldap 
 libsasl2-modules-otp 
 libsasl2-modules-sql 
