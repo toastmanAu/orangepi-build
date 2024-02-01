@@ -17,11 +17,12 @@ cpp-12-doc
 cups-bsd 
 cups-pdf 
 debtags 
+default-jre 
 default-mta
-desktop-base usbguard 
+desktop-base 
 dh-make 
 dmraid 
-doc-base wodim 
+doc-base 
 docx2txt
 eog 
 epiphany-browser
@@ -72,7 +73,7 @@ gphoto2
 graphicsmagick-imagemagick-compat 
 groff 
 gstreamer1.0-doc 
-gstreamer1.0-libav default-jre 
+gstreamer1.0-libav 
 gstreamer1.0-plugins-bad 
 gstreamer1.0-plugins-ugly
 guacamole 
@@ -302,8 +303,10 @@ unar
 unity-common 
 unixodbc 
 unrar
+usbguard 
 vtk9-doc
 vtk9-examples 
+wodim 
 www-browser
 x11-xfs-utils 
 xfonts-100dpi 
