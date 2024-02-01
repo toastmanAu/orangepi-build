@@ -35,7 +35,7 @@ fonts-crosextra-caladea
 fonts-crosextra-carlito
 fonts-ipafont-gothic
 fonts-ipafont-mincho 
-fonts-japanese-gothic 
+fonts-takao-gothic
 fonts-takao-mincho
 fonts-mathjax-extras 
 fonts-nanum magicfilter 
@@ -116,7 +116,7 @@ libmariadb-java
 libofficebean-java 
 liborc-0.4-doc
 libotr5 
-libpam-3gnome-keyring 
+libpam-gnome-keyring 
 libpam-fprintd 
 libpam-pkcs11
 libpam-sss 
@@ -204,7 +204,6 @@ python-setuptools-doc
 python-tk 
 python2-doc 
 python2.7-doc 
-python3-aptdaemon.pkcompat 
 python3-openssl
 python3-smbc
 python3-socks 
